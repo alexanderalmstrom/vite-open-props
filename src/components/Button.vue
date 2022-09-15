@@ -4,18 +4,8 @@
   </button>
 </template>
 
-<script>
-export default {
-  name: 'Button',
-  props: {
-    variant: {
-      type: String,
-      default: undefined
-    }
-  }
-}  
+<script setup>
+const props = defineProps({
+  variant: String
+})
 </script>
-
-<style scoped>
-
-</style>

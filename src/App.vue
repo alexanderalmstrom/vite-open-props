@@ -1,6 +1,5 @@
 <script setup>
 import Button from './components/Button.vue'
-
 const brand = import.meta.env.VITE_BRAND;
 </script>
 
@@ -11,7 +10,3 @@ const brand = import.meta.env.VITE_BRAND;
     <Button variant="outlined" />
   </main>
 </template>
-
-<style scoped>
-
-</style>
