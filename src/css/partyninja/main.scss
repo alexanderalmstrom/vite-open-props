@@ -1,10 +1,10 @@
-@import './abstracts/base';
-@import './abstracts/colors';
-@import './abstracts/fonts';
-@import './abstracts/radius';
-@import './abstracts/sizes';
-@import './abstracts/theme';
-@import './abstracts/typography';
+@import './config/base';
+@import './config/colors';
+@import './config/fonts';
+@import './config/radius';
+@import './config/sizes';
+@import './config/theme';
+@import './config/typography';
 
 @import './base/reset';
 @import './base/global';
