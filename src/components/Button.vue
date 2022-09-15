@@ -1,5 +1,5 @@
 <template>
-  <button class="button" :class="[variant]">
+  <button class="button" :class="[variant]" type="button">
     <slot />
   </button>
 </template>
@@ -12,12 +12,16 @@ const props = defineProps({
 
 <style>
 .button {
-  background-color: var(--button-background-color);
-  color: var(--button-text-color);
-  font-size: var(--button-font-size, 1rem);
   padding: var(--button-padding, 0.75em 1em);
+  background-color: var(--button-background-color);
+  color: var(--button-color);
+  font-size: var(--button-font-size, 1rem);
+  font-weight: var(--button-font-weight);
+  text-transform: var(--button-text-transform);
+  letter-spacing: var(--button-letter-spacing);
   border-width: var(--button-border-width, 1px);
   border-style: var(--button-border-style, solid);
   border-color: var(--button-border-color, transparent);
+  border-radius: var(--button-border-radius);
 }
 </style>

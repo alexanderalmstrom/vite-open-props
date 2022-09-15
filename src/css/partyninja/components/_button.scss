@@ -1,13 +1,20 @@
+.button {
+  --button-border-radius: var(--size-5);
+  --button-text-transform: uppercase;
+  --button-font-weight: 700;
+}
+
 .button.primary {
-  background-color: var(--surface-1);
-  color: #fff;
+  --button-background-color: var(--surface-1);
+  --button-color: #000;
 }
 
 .button.secondary {
-  background-color: var(--surface-2);
-  color: #fff;
+  --button-background-color: var(--surface-2);
+  --button-color: #fff;
 }
 
 .button.outlined {
-  border-color: var(--surface-1);
+  --button-color: #000;
+  --button-border-color: currentColor;
 }
