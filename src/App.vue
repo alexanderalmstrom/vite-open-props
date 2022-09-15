@@ -1,7 +1,7 @@
 <script setup>
 import Button from './components/Button.vue'
 
-const brand = import.meta.env.BRAND;
+const brand = import.meta.env.VITE_BRAND;
 </script>
 
 <template>
