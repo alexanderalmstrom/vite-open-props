@@ -1,0 +1,13 @@
+.button.primary {
+  --button-background-color: var(--surface1);
+  --button-text-color: #fff;
+}
+
+.button.secondary {
+  --button-background-color: var(--surface2);
+  --button-text-color: #fff;
+}
+
+.button.outlined {
+  --button-border-color: #000;
+}

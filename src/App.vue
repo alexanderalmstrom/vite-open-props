@@ -1,12 +1,13 @@
 <script setup>
-import Button from './components/Button.vue'
+import DogrevolutionLayout from './layouts/dogrevolution.vue';
+import PartyninjaLayout from './layouts/partyninja.vue';
+
 const brand = import.meta.env.VITE_BRAND;
 </script>
 
 <template>
-  <main :brand="brand">
-    <Button variant="primary" />
-    <Button variant="secondary" />
-    <Button variant="outlined" />
-  </main>
+  <div :brand="brand">
+    <DogrevolutionLayout v-if="brand === 'dogrevolution'" />
+    <PartyninjaLayout v-if="brand === 'partyninja'" />
+  </div>
 </template>
