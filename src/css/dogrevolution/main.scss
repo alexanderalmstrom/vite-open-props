@@ -5,6 +5,8 @@
 @import './abstracts/theme';
 @import './abstracts/typography';
 
+@import './base/reset';
 @import './base/global';
+@import './base/typography';
 
 @import './components/button';
