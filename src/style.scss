@@ -1,0 +1,58 @@
+:root {
+  --partyninja-primary: #f00;
+  --partyninja-secondary: #ff0;
+
+  --dogrevolution-primary: #000;
+  --dogrevolution-secondary: #fff;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  font-size: var(--button-font-size, 1rem);
+  padding: var(--button-padding, 0.75em 1em);
+  border-width: var(--button-border-width, 1px);
+  border-style: var(--button-border-style, solid);
+  border-color: var(--button-border-color, transparent);
+}
+
+[brand="partyninja"] {
+  .button.primary {
+    --button-background-color: var(--partyninja-primary);
+    --button-text-color: #fff;
+  }
+  
+  .button.secondary {
+    --button-background-color: var(--partyninja-secondary);
+    --button-text-color: #fff;
+  }
+  
+  .button.outlined {
+    --button-border-color: #000;
+  }
+}
+
+[brand="dogrevolution"] {
+  .button.primary {
+    --button-background-color: var(--dogrevolution-primary);
+    --button-text-color: #fff;
+  }
+  
+  .button.secondary {
+    --button-background-color: var(--dogrevolution-secondary);
+    --button-text-color: #fff;
+  }
+  
+  .button.outlined {
+    --button-border-color: #000;
+  }
+}
