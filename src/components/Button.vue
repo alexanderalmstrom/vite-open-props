@@ -15,6 +15,7 @@ const props = defineProps({
   padding: var(--button-padding, 0.75em 1em);
   background-color: var(--button-background-color);
   color: var(--button-color);
+  line-height: var(--button-line-height, 1);
   font-size: var(--button-font-size, 1rem);
   font-weight: var(--button-font-weight);
   text-transform: var(--button-text-transform);
