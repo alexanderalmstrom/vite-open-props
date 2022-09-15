@@ -1,5 +1,5 @@
 <template>
-  <component :is="as" class="heading" :class="[size]">
+  <component :is="as" class="heading">
     <slot />
   </component>
 </template>
@@ -9,10 +9,6 @@ const props = defineProps({
   as: {
     type: String,
     default: 'h2'
-  },
-  size: {
-    type: String,
-    default: undefined
   },
 })
 </script>
