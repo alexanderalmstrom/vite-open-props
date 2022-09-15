@@ -1,2 +1,10 @@
-@import './root';
-@import './button';
+@import './abstracts/base';
+@import './abstracts/colors';
+@import './abstracts/fonts';
+@import './abstracts/sizes';
+@import './abstracts/theme';
+@import './abstracts/typography';
+
+@import './base/global';
+
+@import './components/button';
