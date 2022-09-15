@@ -9,6 +9,8 @@
     <Button variant="secondary">Button secondary</Button>
     <Button variant="outlined">Button outlined</Button>
 
+    <Heading as="h1" size="display-1">Display 1</Heading>
+    <Heading as="h1" size="display-2">Display 2</Heading>
     <Heading as="h1" size="heading-1">Heading 1</Heading>
     <Heading as="h2" size="heading-2">Heading 2</Heading>
     <Heading as="h3" size="heading-3">Heading 3</Heading>

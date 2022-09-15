@@ -12,7 +12,7 @@ const props = defineProps({
   },
   size: {
     type: String,
-    default: 'heading-1'
+    default: undefined
   },
 })
 </script>
