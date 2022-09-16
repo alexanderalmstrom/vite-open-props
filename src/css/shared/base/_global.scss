@@ -3,3 +3,8 @@ body {
   line-height: var(--base-line-height);
   color: var(--base-color);
 }
+
+p {
+  margin-bottom: var(--paragraph-margin-bottom);
+  line-height: var(--paragraph-line-height);
+}
