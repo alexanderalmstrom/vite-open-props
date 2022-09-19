@@ -1,16 +1,16 @@
 <template>
-<component :is="as" class="heading">
-  <slot />
-</component>
+  <component :is="as" class="heading">
+    <slot />
+  </component>
 </template>
 
 <script setup>
 const props = defineProps({
   as: {
     type: String,
-    default: 'h2'
+    default: 'h2',
   },
-});
+})
 </script>
 
 <style>
