@@ -1,7 +1,7 @@
 <script setup>
-import { currentBrand } from './utils';
-import DogrevolutionLayout from './layouts/dogrevolution.vue';
-import PartyninjaLayout from './layouts/partyninja.vue';
+import { currentBrand } from './utils'
+import DogrevolutionLayout from './layouts/dogrevolution.vue'
+import PartyninjaLayout from './layouts/partyninja.vue'
 </script>
 
 <template>

@@ -1,13 +1,13 @@
 <template>
-<button class="button" :class="[variant]" type="button">
-  <slot />
-</button>
+  <button class="button" :class="[variant]" type="button">
+    <slot />
+  </button>
 </template>
 
 <script setup>
 const props = defineProps({
-  variant: String
-});
+  variant: String,
+})
 </script>
 
 <style>
