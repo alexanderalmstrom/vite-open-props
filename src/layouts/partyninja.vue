@@ -1,9 +1,3 @@
-<script setup>
-import Button from '../components/Button.vue'
-import Heading from '../components/Heading.vue'
-import Icon from '../components/Icon.vue'
-</script>
-
 <template>
   <main>
     <Button variant="primary">Button primary</Button>
@@ -24,3 +18,9 @@ import Icon from '../components/Icon.vue'
     <Icon name="cross" />
   </main>
 </template>
+
+<script setup>
+import Button from '../components/Button.vue'
+import Heading from '../components/Heading.vue'
+import Icon from '../components/Icon.vue'
+</script>
