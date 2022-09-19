@@ -1,13 +1,12 @@
 <script setup>
+import { currentBrand } from './utils';
 import DogrevolutionLayout from './layouts/dogrevolution.vue';
 import PartyninjaLayout from './layouts/partyninja.vue';
-
-const brand = import.meta.env.VITE_BRAND;
 </script>
 
 <template>
-  <div :brand="brand">
-    <DogrevolutionLayout v-if="brand === 'dogrevolution'" />
-    <PartyninjaLayout v-if="brand === 'partyninja'" />
+  <div :data-brand="currentBrand">
+    <DogrevolutionLayout v-if="currentBrand === 'dogrevolution'" />
+    <PartyninjaLayout v-if="currentBrand === 'partyninja'" />
   </div>
 </template>
