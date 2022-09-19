@@ -1,16 +1,16 @@
 .button {
-  --button-letter-spacing: 0.03em;
-  --button-border-radius: var(--size-1);
+  --button-letter-spacing: var(--font-letter-spacing-1);
+  --button-border-radius: var(--radius-1);
 }
 
 .button.primary {
   --button-background-color: var(--surface-1);
-  --button-color: #fff;
+  --button-color: var(--white);
 }
 
 .button.secondary {
   --button-background-color: var(--surface-2);
-  --button-color: #fff;
+  --button-color: var(--white);
 }
 
 .button.outlined {

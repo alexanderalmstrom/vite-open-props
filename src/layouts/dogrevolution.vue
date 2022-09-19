@@ -17,5 +17,7 @@
     <Heading as="h4" class="heading-4">Heading 4</Heading>
     <Heading as="h5" class="heading-5">Heading 5</Heading>
     <Heading as="h6" class="heading-6">Heading 6</Heading>
+
+    <p>Lorem ipsum dolor sit amet</p>
   </main>
 </template>
