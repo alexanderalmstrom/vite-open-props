@@ -1,12 +1,10 @@
-@import './config/base';
+// Config
 @import './config/colors';
-@import './config/fonts';
-@import './config/radius';
-@import './config/sizes';
 @import './config/theme';
-@import './config/typography';
 
+// Base
 @import './base/typography';
 
+// Components
 @import './components/button';
 @import './components/heading';

@@ -1,7 +1,7 @@
 .heading {
   --heading-font-family: var(--font-sans);
-  --heading-line-height: 1.1;
-  --heading-margin-bottom: 0.5em;
+  --heading-line-height: var(--font-line-height-2);
+  --heading-margin-bottom: var(--size-3);
   --heading-text-transform: uppercase;
-  --heading-font-weight: 700;
+  --heading-font-weight: var(--font-weight-7);
 }

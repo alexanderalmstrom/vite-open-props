@@ -1,22 +1,22 @@
 .button {
   --button-padding: 1em 2em;
   --button-text-transform: uppercase;
-  --button-font-weight: 700;
-  --button-letter-spacing: 0.06em;
+  --button-font-weight: var(--font-weight-7);
+  --button-letter-spacing: var(--font-letter-spacing-2);
   --button-border-radius: var(--radius-round);
 }
 
 .button.primary {
   --button-background-color: var(--surface-1);
-  --button-color: #000;
+  --button-color: var(--black);
 }
 
 .button.secondary {
   --button-background-color: var(--surface-2);
-  --button-color: #fff;
+  --button-color: var(--white);
 }
 
 .button.outlined {
-  --button-color: #000;
+  --button-color: var(--black);
   --button-border-color: currentColor;
 }

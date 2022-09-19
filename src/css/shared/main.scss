@@ -1,2 +1,10 @@
+// Config
+@import './config/base';
+@import './config/colors';
+@import './config/fonts';
+@import './config/radius';
+@import './config/sizes';
+
+// Base
 @import './base/reset';
 @import './base/global';
