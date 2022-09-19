@@ -2,7 +2,6 @@
   "name": "vite-open-props",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
+    "postcss-custom-media": "^8.0.2",
     "vite": "^3.1.0",
     "vite-plugin-dynamic-import": "^1.2.2"
   }
