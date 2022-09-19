@@ -21,6 +21,6 @@ import Icon from '../components/Icon.vue';
 
   <p>Lorem ipsum dolor sit amet</p>
 
-  <Icon name="chevron" />
+  <Icon name="cross" />
 </main>
 </template>
