@@ -1,9 +1,9 @@
 <template>
-<IconComponent />
+<SvgIcon />
 </template>
 
 <script setup>
-import { loadIcon } from '../utils';
+import { loadSvgIcon } from '../utils';
 
 const props = defineProps({
   name: {
@@ -12,5 +12,5 @@ const props = defineProps({
   }
 });
 
-const IconComponent = loadIcon(props.name);
+const SvgIcon = loadSvgIcon(props.name);
 </script>
