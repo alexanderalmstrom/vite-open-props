@@ -22,7 +22,7 @@
     </section>
 
     <section>
-      <Button variant="primary" @click="toggleDialog">Open dialog</Button>
+      <Button variant="primary" @click="openDialog">Open dialog</Button>
       <Dialog ref="dialog">
         <Heading>Dialog title</Heading>
       </Dialog>
@@ -37,9 +37,9 @@ import Heading from '../components/Heading.vue'
 import Icon from '../components/Icon.vue'
 import Dialog from '../components/Dialog.vue'
 
-const dialog = ref()
+const dialog = ref(null)
 
-function toggleDialog() {
+function openDialog() {
   dialog.value.dialog.showModal()
 }
 </script>
