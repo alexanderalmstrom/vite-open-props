@@ -7,7 +7,11 @@ export function loadSvgIcon(name) {
     try {
       return await import(`../icons/${currentBrand}/${name}.svg`);
     } catch(error) {
-      return await import(`../icons/shared/${name}.svg`);
+      try {
+        return await import(`../icons/shared/${name}.svg`);
+      } catch(error) {
+        throw new Error(`${name}.svg does not exist in src/icons/shared`);
+      }
     }
   });
 }
